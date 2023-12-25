@@ -12,7 +12,7 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
    credentials: true,
-   origin: process.env.CLIENT_URL,
+   origin: 'https://task-4-liu1.onrender.com',
  }))
 app.use('/api', router)
 
